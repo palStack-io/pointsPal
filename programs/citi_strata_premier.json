@@ -1,0 +1,147 @@
+{
+  "program_id": "citi_strata_premier",
+  "program_name": "Citi Strata Premier",
+  "issuer": "Citi",
+  "network": "Mastercard",
+  "currency_name": "Points",
+  "annual_fee": 95.0,
+  "effective_annual_fee": "95",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.019,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2024-06-01",
+  "known_change_event": "Rebranded from Citi Premier; new purchase + travel protections added mid-2024",
+  "review_frequency_months": 6,
+  "notes": "$100 annual hotel credit ($500+ booking via Citi Travel \u2014 single booking only); strong transfer partners (Turkish, EVA Air, AA, Flying Blue); anchor of Citi trifecta (pair with Double Cash)",
+  "source_url": "https://www.bankrate.com/credit-cards/reviews/citi-strata-premier-card/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 4000.0,
+    "spend_timeframe_months": 3,
+    "notes": "60,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 10.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "10x portal only at CitiTravel; $100 hotel credit requires minimum $500 single booking; no lounge access",
+  "redemption_limits": "Transfer in 1,000-pt increments; no minimum redemption",
+  "apr": "20.49%\u201328.49% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$100 hotel credit: requires $500+ single booking \u2014 budget stays don't qualify"
+}

@@ -1,0 +1,147 @@
+{
+  "program_id": "wells_fargo_autograph_journey",
+  "program_name": "Wells Fargo Autograph Journey",
+  "issuer": "Wells Fargo",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 95.0,
+  "effective_annual_fee": "45",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2024-03-01",
+  "known_change_event": "Launched March 2024",
+  "review_frequency_months": 12,
+  "notes": "$50 annual airline statement credit; cell phone protection up to $1,000; Autograph Card Exclusives (live event access); no foreign transaction fees",
+  "source_url": "https://www.bankrate.com/credit-cards/reviews/wells-fargo-autograph-journey-comparison/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 4000.0,
+    "spend_timeframe_months": 3,
+    "notes": "60,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "hotels_direct",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 4.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "5x only on direct hotel bookings (not via portal); 4x only on direct airline bookings; grocery/gas/streaming earn 1x",
+  "redemption_limits": "No minimum redemption; transfer to international airline partners only (no US domestic partners)",
+  "apr": "20.24%\u201329.99% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "None"
+}

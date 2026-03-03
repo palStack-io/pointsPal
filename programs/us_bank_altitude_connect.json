@@ -1,0 +1,147 @@
+{
+  "program_id": "us_bank_altitude_connect",
+  "program_name": "US Bank Altitude Connect",
+  "issuer": "US Bank",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 0,
+  "effective_annual_fee": "0 yr1; $95 thereafter",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 12,
+  "notes": "$30/yr streaming credit (after 11 consecutive months of streaming purchases); 4 Priority Pass visits/yr; TSA PreCheck/Global Entry credit; no foreign transaction fees; no transfer partners",
+  "source_url": "https://financebuzz.com/us-bank-altitude-connect-visa-signature-review",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 2000.0,
+    "spend_timeframe_months": 3,
+    "notes": "50,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 5.0,
+      "cap_amount": 1.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 5.0,
+      "cap_amount": 1.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 4.0,
+      "cap_amount": 1.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 4.0,
+      "cap_amount": 1000,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": 1.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 2.0,
+      "cap_amount": 1.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "No transfer partners \u2014 Altitude Points fixed at 1cpp; 4x gas capped at $1,000/quarter; 5x only via Altitude Travel Center (not direct airline/hotel bookings)",
+  "redemption_limits": "No minimum redemption; Real-Time Rewards lets you redeem instantly via text",
+  "apr": "19.24%\u201329.24% Variable",
+  "companion_elite_benefits": "N \u2014 4 Priority Pass visits/yr only",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$1,000/quarter cap on 4x gas earning; all other bonus categories uncapped"
+}

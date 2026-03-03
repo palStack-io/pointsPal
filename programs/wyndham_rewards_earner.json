@@ -1,0 +1,147 @@
+{
+  "program_id": "wyndham_rewards_earner",
+  "program_name": "Wyndham Rewards Earner",
+  "issuer": "Barclays",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 75.0,
+  "effective_annual_fee": "75",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "inactivity_18mo",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 12,
+  "notes": "Auto Wyndham Gold status; anniversary free night at entry-tier properties; Wyndham Rewards entry card",
+  "source_url": "https://www.barclays.us/credit-cards/wyndham-rewards-earner/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 2000.0,
+    "spend_timeframe_months": 3,
+    "notes": "40,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "hotels_direct",
+      "multiplier": 6.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "6x only at Wyndham brands (Days Inn, Super 8, Ramada, La Quinta, etc.)",
+  "redemption_limits": "Points expire 18 months inactivity",
+  "apr": "20.24%\u201329.99% Variable",
+  "companion_elite_benefits": "Y \u2014 Gold status auto",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "None"
+}

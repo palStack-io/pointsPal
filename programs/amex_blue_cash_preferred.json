@@ -1,0 +1,147 @@
+{
+  "program_id": "amex_blue_cash_preferred",
+  "program_name": "Amex Blue Cash Preferred",
+  "issuer": "American Express",
+  "network": "Amex",
+  "currency_name": "Cash Back",
+  "annual_fee": 95.0,
+  "effective_annual_fee": "95",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2025-10-01",
+  "known_change_event": "Disney streaming credit raised from $7/mo to $10/mo",
+  "review_frequency_months": 12,
+  "notes": "$10/mo Disney streaming credit (Disney+, Hulu, ESPN+); intro $0 AF first year then $95; best grocery cash-back card; no transfer partners \u2014 pure cash back",
+  "source_url": "https://wallethub.com/d/american-express-blue-cash-preferred-547c",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 3000.0,
+    "spend_timeframe_months": 3,
+    "notes": "$300 cash (varies)"
+  },
+  "earn_categories": [
+    {
+      "category": "groceries",
+      "multiplier": 6.0,
+      "cap_amount": 6000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 6.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "6% only at US supermarkets \u2014 excludes superstores (Walmart/Target), warehouse clubs; 3% transit includes taxis/rideshare/parking/trains",
+  "redemption_limits": "Reward Dollars redeemable as statement credit or Amazon checkout; no transfer to points programs",
+  "apr": "19.49%\u201328.49% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "Grocery 6% cap: $6,000/yr; after cap earns 1%"
+}

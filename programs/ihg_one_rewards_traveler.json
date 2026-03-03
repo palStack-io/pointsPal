@@ -1,0 +1,147 @@
+{
+  "program_id": "ihg_one_rewards_traveler",
+  "program_name": "IHG One Rewards Traveler",
+  "issuer": "Chase",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 0,
+  "effective_annual_fee": "0",
+  "base_cpp": 0.005,
+  "tpg_cpp": 0.005,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "inactivity_12mo",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 12,
+  "notes": "No annual fee; IHG One Rewards entry card; IHG Silver status; 4th night free on award stays",
+  "source_url": "https://thepointsguy.com/credit-cards/hotel/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 2000.0,
+    "spend_timeframe_months": 3,
+    "notes": "70,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "hotels_direct",
+      "multiplier": 15.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "15x only at IHG brands",
+  "redemption_limits": "IHG points expire after 12 months inactivity",
+  "apr": "20.49%\u201327.49% Variable",
+  "companion_elite_benefits": "N \u2014 Silver status (not auto Platinum)",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "None"
+}

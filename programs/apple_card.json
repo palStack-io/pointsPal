@@ -1,0 +1,147 @@
+{
+  "program_id": "apple_card",
+  "program_name": "Apple Card",
+  "issuer": "Apple / Goldman Sachs",
+  "network": "Mastercard",
+  "currency_name": "Cash Back",
+  "annual_fee": 0,
+  "effective_annual_fee": "0",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 12,
+  "notes": "3% at Apple + select merchants (Nike, Uber, Walgreens, etc.); 2% on all Apple Pay transactions; 1% physical card; Daily Cash deposited daily to Apple Cash; titanium physical card; no fees of any kind",
+  "source_url": "https://www.apple.com/apple-card/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 500.0,
+    "spend_timeframe_months": 3,
+    "notes": "$200 credit"
+  },
+  "earn_categories": [
+    {
+      "category": "flights_direct",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "3% list of merchants is limited and fixed; 2% requires using Apple Pay (not the physical card); cash back deposited daily as Apple Cash",
+  "redemption_limits": "Daily Cash redeemable via Apple Pay or Apple Cash balance; no transfer to airline/hotel programs",
+  "apr": "15.99%\u201326.99% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "Must use Apple Pay for 2%; physical card earns 1% only",
+  "bonus_cap_conditional": "3% merchant list is fixed; must use iPhone/Apple Pay"
+}

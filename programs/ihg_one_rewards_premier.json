@@ -1,0 +1,147 @@
+{
+  "program_id": "ihg_one_rewards_premier",
+  "program_name": "IHG One Rewards Premier",
+  "issuer": "Chase",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 99.0,
+  "effective_annual_fee": "99",
+  "base_cpp": 0.005,
+  "tpg_cpp": 0.005,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "inactivity_12mo",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 12,
+  "notes": "Auto IHG Platinum Elite; anniversary free night; 4th night free on award stays; $100 IHG credit on 2+ night stays; Global Entry/TSA PreCheck credit",
+  "source_url": "https://thepointsguy.com/credit-cards/hotel/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 5000.0,
+    "spend_timeframe_months": 3,
+    "notes": "175,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "hotels_direct",
+      "multiplier": 26.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "26x only at IHG properties; non-IHG travel earns 5x card rate only",
+  "redemption_limits": "IHG points expire after 12 months of inactivity",
+  "apr": "20.49%\u201327.49% Variable",
+  "companion_elite_benefits": "Y \u2014 IHG Platinum Elite auto",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "None"
+}

@@ -1,0 +1,147 @@
+{
+  "program_id": "us_bank_altitude_reserve",
+  "program_name": "US Bank Altitude Reserve",
+  "issuer": "US Bank",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 400.0,
+  "effective_annual_fee": "75",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2024-11-01",
+  "known_change_event": "Closed to new applicants Nov 2024; existing cardholders retain all benefits",
+  "review_frequency_months": 12,
+  "notes": "CLOSED TO NEW APPLICANTS Nov 2024. Existing cardholders only. $325 annual travel+dining credit; Priority Pass Select (unlimited); Global Entry; 1.5cpp redemption toward travel (best Altitude rate)",
+  "source_url": "https://financebuzz.com/us-bank-altitude-reserve-visa-infinite-card-review",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 4500.0,
+    "spend_timeframe_months": 3,
+    "notes": "50,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "3x mobile wallet on up to $5,000/billing cycle; no transfer partners \u2014 points fixed value",
+  "redemption_limits": "1.5cpp when redeemed for travel via Altitude Rewards Center; no airline/hotel transfers",
+  "apr": "19.24%\u201329.24% Variable",
+  "companion_elite_benefits": "Y \u2014 Priority Pass unlimited",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "Mobile wallet 3x: up to $5,000/billing cycle"
+}

@@ -1,0 +1,147 @@
+{
+  "program_id": "bilt_mastercard_obsidian",
+  "program_name": "Bilt Mastercard (Obsidian)",
+  "issuer": "Bilt",
+  "network": "Mastercard",
+  "currency_name": "Points",
+  "annual_fee": 0,
+  "effective_annual_fee": "0",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.022,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2026-02-07",
+  "known_change_event": "Bilt 2.0 launched Feb 7 2026: new Obsidian card, Cardless replaces Wells Fargo as issuer; Bilt Cash earning option added",
+  "review_frequency_months": 3,
+  "notes": "Earn points on rent + mortgage with no transaction fee (unique to Bilt); 4% Bilt Cash on everyday spend (if Flexible option selected); 5x on Lyft; World of Hyatt + AA + United transfers; highest TPG valuation (2.2cpp) as of Feb 2026",
+  "source_url": "https://thepointsguy.com/loyalty-programs/bilt-rewards-guide/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 0,
+    "spend_timeframe_months": 3,
+    "notes": "50,000 pts + Gold status"
+  },
+  "earn_categories": [
+    {
+      "category": "transit",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 3.0,
+      "cap_amount": 25000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "Must choose dining OR groceries for 3x at card setup \u2014 cannot earn 3x on both simultaneously; 3x groceries capped at $25k/yr; must make 5+ non-rent transactions/month to earn points on rent",
+  "redemption_limits": "Transfer in 1,000-pt increments; rent points transfer at separate rate",
+  "apr": "21.24%\u201329.49% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "Must make 5+ non-rent purchases/month to earn rent points",
+  "bonus_cap_conditional": "Cannot choose both dining AND groceries for 3x; must pick one at signup (changeable annually in January)"
+}

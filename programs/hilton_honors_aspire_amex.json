@@ -1,0 +1,147 @@
+{
+  "program_id": "hilton_honors_aspire_amex",
+  "program_name": "Hilton Honors Aspire Amex",
+  "issuer": "American Express",
+  "network": "Amex",
+  "currency_name": "Points",
+  "annual_fee": 550.0,
+  "effective_annual_fee": "250",
+  "base_cpp": 0.006,
+  "tpg_cpp": 0.006,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 6,
+  "notes": "Auto Diamond Elite status (best Hilton status); annual Free Night Award (any property, any price); $400 Hilton resort credit/yr ($200 semi-annually); $200 airline fee credit; Priority Pass Select (unlimited visits); no foreign transaction fees",
+  "source_url": "https://thepointsguy.com/credit-cards/hotel/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 6000.0,
+    "spend_timeframe_months": 3,
+    "notes": "175,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "hotels_direct",
+      "multiplier": 14.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 7.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 7.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 7.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "14x only at Hilton; 7x on direct airline + restaurants + car rentals; grocery/gas earn 3x base only",
+  "redemption_limits": "Annual free night has no cap \u2014 can be used at any property worldwide",
+  "apr": "21.49%\u201330.49% Variable",
+  "companion_elite_benefits": "Y \u2014 Diamond Elite auto + unlimited Priority Pass",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "Resort credit: must be used at specific Hilton resort properties only"
+}

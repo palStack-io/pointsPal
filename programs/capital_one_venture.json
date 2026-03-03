@@ -1,0 +1,147 @@
+{
+  "program_id": "capital_one_venture",
+  "program_name": "Capital One Venture",
+  "issuer": "Capital One",
+  "network": "Visa",
+  "currency_name": "Miles",
+  "annual_fee": 95.0,
+  "effective_annual_fee": "95",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.0185,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 6,
+  "notes": "$250 Capital One Travel credit first year; up to $120 Global Entry/TSA PreCheck credit; travel eraser option; Lifestyle Collection hotel perks; no foreign transaction fees",
+  "source_url": "https://thepointsguy.com/credit-cards/capital-one-miles-vs-chase-ultimate-rewards/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 4000.0,
+    "spend_timeframe_months": 3,
+    "notes": "75,000 miles + $250 C1 Travel credit"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "5x only via Capital One Travel \u2014 not direct bookings; $250 travel credit is first-year only",
+  "redemption_limits": "No minimum redemption; travel eraser at 1cpp; transfer in 1,000-mile increments",
+  "apr": "19.99%\u201329.99% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$250 first-year travel credit \u2014 not recurring annually"
+}

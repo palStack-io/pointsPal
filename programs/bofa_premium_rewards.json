@@ -1,0 +1,147 @@
+{
+  "program_id": "bofa_premium_rewards",
+  "program_name": "BofA Premium Rewards",
+  "issuer": "Bank of America",
+  "network": "Visa",
+  "currency_name": "Points",
+  "annual_fee": 95.0,
+  "effective_annual_fee": "95",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2026-05-27",
+  "known_change_event": "BofA Rewards rebrand May 2026 affects boost tiers",
+  "review_frequency_months": 6,
+  "notes": "$300 airline incidental credit; $150 lifestyle credit; Global Entry/TSA PreCheck credit; no foreign transaction fees; BofA Rewards boost applies",
+  "source_url": "https://frequentmiler.com/negative-bank-of-america-preferred-rewards-upcoming-changes-lower-bonus-rewards-higher-eligibility-requirements/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 4000.0,
+    "spend_timeframe_months": 3,
+    "notes": "60,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.5,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "Travel and dining broadly defined; boost percentages changing May 2026",
+  "redemption_limits": "No minimum redemption \u2014 can redeem for any amount; no transfer to airline/hotel programs",
+  "apr": "20.24%\u201327.24% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "None \u2014 2x travel/dining uncapped; 1.5x base uncapped"
+}

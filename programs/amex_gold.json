@@ -1,0 +1,147 @@
+{
+  "program_id": "amex_gold",
+  "program_name": "Amex Gold",
+  "issuer": "American Express",
+  "network": "Amex",
+  "currency_name": "Points",
+  "annual_fee": 325.0,
+  "effective_annual_fee": "85",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.02,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 6,
+  "notes": "$120 dining credit ($10/mo, select partners); $120 Uber Cash ($10/mo); $100 Resy credit ($50 semi-annually); The Hotel Collection $100 property credit on 2+ night stays; no foreign transaction fees",
+  "source_url": "https://thepointsguy.com/credit-cards/amex-platinum-vs-amex-gold/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 6000.0,
+    "spend_timeframe_months": 3,
+    "notes": "100,000 pts (varies)"
+  },
+  "earn_categories": [
+    {
+      "category": "dining",
+      "multiplier": 4.0,
+      "cap_amount": 50000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 4.0,
+      "cap_amount": 25000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "4x grocery at US supermarkets only \u2014 excludes warehouse clubs, superstores; transfer fee $0.0006/pt (max $99) to US domestic airlines",
+  "redemption_limits": "Once-per-lifetime welcome offer; portal redeems at 1cpp \u2014 always better to transfer to partners",
+  "apr": "19.49%\u201328.49% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "Dining cap: $50k/yr; Grocery cap: $25k/yr; credits are monthly/semi-annual use-or-lose"
+}

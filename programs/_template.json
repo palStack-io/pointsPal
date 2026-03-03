@@ -1,0 +1,98 @@
+{
+  "_instructions": "Copy this file to programs/<program_id>.json. Delete all keys starting with underscore before submitting your PR.",
+
+  "program_id": "your_program_id_here",
+  "_note_program_id": "snake_case only. Must exactly match the filename. Example: chase_sapphire_reserve",
+
+  "program_name": "Full Card Name Here",
+  "issuer": "Bank or Issuer Name",
+  "network": "Visa",
+  "_note_network": "One of: Visa, Mastercard, Amex, Discover",
+
+  "currency_name": "Points",
+  "_note_currency": "One of: Points, Miles, Cash Back",
+
+  "annual_fee": 0,
+  "_note_annual_fee": "USD. Use 0 for no-fee cards.",
+
+  "base_cpp": 1.0,
+  "_note_base_cpp": "Cents-per-point at the simplest redemption (cash/statement credit). Usually 1.0.",
+
+  "tpg_cpp": null,
+  "_note_tpg_cpp": "Estimated max value per TPG, NerdWallet, or equivalent. Cite your source_url.",
+
+  "portal_cpp": 1.0,
+  "_note_portal_cpp": "Value when booking through the issuer's own travel portal.",
+
+  "has_transfer_fee": false,
+  "_note_transfer_fee": "true if the issuer charges a fee on transfers (e.g. Amex charges $0.0006/pt to US airlines, max $99).",
+
+  "expiry_policy": "account_closure",
+  "_note_expiry": "One of: account_closure, no_expiry, inactivity_18mo, inactivity_24mo, varies",
+
+  "data_as_of": "YYYY-MM-DD",
+  "_note_data_as_of": "The date you verified these earn rates. Format: YYYY-MM-DD",
+
+  "last_updated": "YYYY-MM-DD",
+  "_note_last_updated": "Date of your most recent edit to this file.",
+
+  "issuer_effective_date": null,
+  "_note_issuer_effective_date": "If the issuer made a recent known change, put that date here. Otherwise null.",
+
+  "known_change_event": null,
+  "_note_known_change_event": "Plain English description of the last issuer change. e.g. 'Jun 2025: earn rates restructured, 3x travel removed'",
+
+  "review_frequency_months": 12,
+  "_note_review_frequency": "How often this card's rates should be re-verified. Use 3 for rotating-category cards, 6 for recent launches, 12 for stable cards.",
+
+  "notes": null,
+  "_note_notes": "Any nuances, restrictions, or context. No affiliate links.",
+
+  "source_url": "",
+  "_note_source_url": "URL verifying the earn rates and/or cpp values. Required if tpg_cpp is set.",
+
+  "contributor": "",
+  "_note_contributor": "Your GitHub username.",
+
+  "welcome_bonus": {
+    "points": 0,
+    "_note_points": "Welcome bonus amount. Use 0 if cash (e.g. $200 bonus → use cash_amount instead).",
+    "cash_amount": null,
+    "_note_cash_amount": "For cash-back cards, the dollar value of the welcome bonus.",
+    "spend_requirement": 0,
+    "spend_timeframe_months": 3,
+    "notes": null
+  },
+
+  "earn_categories": [
+    {
+      "category": "other",
+      "_note_category": "Use ONLY approved slugs from SLUG_REFERENCE.md. See README for full list.",
+      "multiplier": 1.0,
+      "_note_multiplier": "Points or percent per $1 spent. e.g. 3.0 for 3x points, or 3.0 for 3% cash back.",
+      "cap_amount": null,
+      "_note_cap_amount": "Dollar cap before fallback rate kicks in. null = no cap.",
+      "cap_period": null,
+      "_note_cap_period": "One of: monthly, quarterly, annual. null if no cap.",
+      "multiplier_fallback": 1.0,
+      "_note_fallback": "Rate after cap is hit. Usually 1.0.",
+      "card_variant": null,
+      "_note_card_variant": "If this rate only applies to one version of the card, put its identifier here. null = applies to all.",
+      "notes": null
+    }
+  ],
+
+  "transfer_partners": [
+    {
+      "partner_name": "Airline or Hotel Program Name",
+      "ratio": "1:1",
+      "_note_ratio": "Transfer ratio as from:to. e.g. '1:2' means 1 program point = 2 partner points.",
+      "type": "airline",
+      "_note_type": "One of: airline, hotel",
+      "est_cpp": null,
+      "_note_est_cpp": "Estimated cents per point when redeemed via this partner. Cite source_url.",
+      "notes": null
+    }
+  ]
+}
+

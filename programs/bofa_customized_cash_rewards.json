@@ -1,0 +1,147 @@
+{
+  "program_id": "bofa_customized_cash_rewards",
+  "program_name": "BofA Customized Cash Rewards",
+  "issuer": "Bank of America",
+  "network": "Visa",
+  "currency_name": "Cash Back",
+  "annual_fee": 0,
+  "effective_annual_fee": "0",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2026-05-27",
+  "known_change_event": "BofA Rewards rebrand May 2026: 75% boost now requires $1M balance (was $100k); former Platinum \u2192 Preferred Plus (25% boost)",
+  "review_frequency_months": 3,
+  "notes": "Change 3% category once per month online; BofA Rewards boost stacks on top (10%\u201375% extra depending on balance tier); first-year 6% on choice category",
+  "source_url": "https://www.mymoneyblog.com/bank-of-america-bofa-rewards-changes-2026.html",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 1000.0,
+    "spend_timeframe_months": 3,
+    "notes": "$200 cash"
+  },
+  "earn_categories": [
+    {
+      "category": "dining",
+      "multiplier": 3.0,
+      "cap_amount": 2500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 3.0,
+      "cap_amount": 2500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 3.0,
+      "cap_amount": 2500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 3.0,
+      "cap_amount": 2500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 3.0,
+      "cap_amount": 2500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "$2,500/quarter COMBINED cap on both the 3% choice cat AND 2% grocery/wholesale together \u2014 not separate caps; BofA Rewards boost restructuring May 2026",
+  "redemption_limits": "Rewards never expire while account open; $25 minimum for check redemption (no minimum for direct deposit or statement credit)",
+  "apr": "18.24%\u201328.24% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$2,500/quarter combined cap: choice cat + grocery + wholesale clubs all count toward same limit"
+}

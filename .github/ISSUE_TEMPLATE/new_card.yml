@@ -1,0 +1,121 @@
+name: "➕ New Card Submission"
+description: "Submit a new credit card to the pointPal database. A maintainer will build the JSON from your info."
+title: "Add: [Card Name Here]"
+labels: ["new-card", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to pointPal! Fill in what you know — a maintainer will build the JSON and tag you for review before merging.
+
+        **Comfortable with JSON?** [Submit a PR directly](https://github.com/palStack-io/pointPal/compare) using `programs/_template.json` as a starting point — it's faster.
+
+  - type: input
+    id: card_name
+    attributes:
+      label: Card Name
+      description: Full official card name
+      placeholder: "e.g. Chase Sapphire Preferred"
+    validations:
+      required: true
+
+  - type: input
+    id: issuer
+    attributes:
+      label: Card Issuer
+      placeholder: "e.g. Chase, American Express, Citi"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: network
+    attributes:
+      label: Card Network
+      options:
+        - Visa
+        - Mastercard
+        - Amex
+        - Discover
+    validations:
+      required: true
+
+  - type: dropdown
+    id: currency
+    attributes:
+      label: Reward Currency
+      options:
+        - Points
+        - Miles
+        - Cash Back
+    validations:
+      required: true
+
+  - type: input
+    id: annual_fee
+    attributes:
+      label: Annual Fee
+      placeholder: "e.g. 95 or 0 for no fee"
+    validations:
+      required: true
+
+  - type: textarea
+    id: earn_rates
+    attributes:
+      label: Earn Rates
+      description: List all earn multipliers and the categories they apply to
+      placeholder: |
+        - 5x travel via Chase Travel
+        - 3x dining worldwide
+        - 3x online groceries (up to $6,000/yr)
+        - 1x everything else
+    validations:
+      required: true
+
+  - type: textarea
+    id: caps
+    attributes:
+      label: Spending Caps (if any)
+      description: Any category earn caps — what's the limit and what period does it reset?
+      placeholder: |
+        - Groceries: 3x up to $6,000/yr then 1x
+        - Gas: 5x up to $500/month then 1%
+        - None
+
+  - type: textarea
+    id: transfer_partners
+    attributes:
+      label: Transfer Partners (if applicable)
+      description: List transfer partners, ratios, and estimated value if known
+      placeholder: |
+        - World of Hyatt 1:1
+        - United MileagePlus 1:1
+        - Air Canada Aeroplan 1:1
+
+  - type: input
+    id: tpg_cpp
+    attributes:
+      label: Estimated Point Value (cents per point)
+      description: TPG, NerdWallet, or your own estimate
+      placeholder: "e.g. 2.05"
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Where did you verify the earn rates? Required if setting a cpp value.
+      placeholder: "https://thepointsguy.com/..."
+
+  - type: input
+    id: recent_change
+    attributes:
+      label: Recent Issuer Changes (if any)
+      description: Has this card changed recently? Restructured earn rates, new fees, etc.
+      placeholder: "e.g. Jun 2025: earn rates restructured. 3x travel removed."
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Your GitHub Username
+      description: So we can credit you as contributor
+      placeholder: "@your-handle"
+

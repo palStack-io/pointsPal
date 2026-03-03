@@ -1,0 +1,147 @@
+{
+  "program_id": "bilt_palladium",
+  "program_name": "Bilt Palladium",
+  "issuer": "Bilt",
+  "network": "Mastercard",
+  "currency_name": "Points",
+  "annual_fee": 495.0,
+  "effective_annual_fee": "95",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.022,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2026-02-07",
+  "known_change_event": "Bilt 2.0 launched Feb 7 2026: new Palladium flagship card (Cardless issuer)",
+  "review_frequency_months": 3,
+  "notes": "$200 Bilt Travel hotel credit 2x/yr (2-night min; $400 annual hotel value); $200 Bilt Cash annually; Priority Pass guest access; Bilt 2.0 flagship card; highest-value transferable points (2.2cpp per TPG Feb 2026)",
+  "source_url": "https://thepointsguy.com/loyalty-programs/bilt-rewards-guide/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 0,
+    "spend_timeframe_months": 3,
+    "notes": "50,000 pts + Gold status"
+  },
+  "earn_categories": [
+    {
+      "category": "transit",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 2.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "$495 AF partially offset by $400 hotel credit + $200 Bilt Cash = effective $95 if maximized; 2x on rent/mortgage requires spending Bilt Cash to unlock",
+  "redemption_limits": "Transfer in 1,000-pt increments; Priority Pass is guest access (not primary membership for non-Palladium), varies by status",
+  "apr": "21.24%\u201329.49% Variable",
+  "companion_elite_benefits": "Y \u2014 Priority Pass guest access",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "None \u2014 flat 2x on all purchases with no caps"
+}

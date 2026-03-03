@@ -1,0 +1,18 @@
+{
+  "name": "pointpal-community",
+  "version": "1.0.0",
+  "description": "Community-maintained credit card points & rewards database for the palStack ecosystem",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "validate:file": "node scripts/validate.js",
+    "compile": "node scripts/compile.js",
+    "build": "npm run validate && npm run compile"
+  },
+  "keywords": ["credit-cards", "rewards", "points", "palstack", "finpal"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
+

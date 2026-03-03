@@ -1,0 +1,147 @@
+{
+  "program_id": "discover_it_cash_back",
+  "program_name": "Discover it Cash Back",
+  "issuer": "Discover",
+  "network": "Discover",
+  "currency_name": "Cash Back",
+  "annual_fee": 0,
+  "effective_annual_fee": "0",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2026-01-01",
+  "known_change_event": "Q1 2026 rotating categories: restaurants + drugstores",
+  "review_frequency_months": 3,
+  "notes": "Cashback Match first year: if you earn $300 cash back, Discover gives you another $300 \u2014 effectively 10% on rotating cats + 2% base in year 1; no annual fee; no foreign transaction fees; freeze card via app",
+  "source_url": "https://frequentmiler.com/q1-2026-activation-links-for-cards-offering-5-in-rotating-categories/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 0,
+    "spend_timeframe_months": 3,
+    "notes": "Cashback Match (all yr1 earnings doubled)"
+  },
+  "earn_categories": [
+    {
+      "category": "dining",
+      "multiplier": 5.0,
+      "cap_amount": 1500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 5.0,
+      "cap_amount": 1500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 5.0,
+      "cap_amount": 1500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": 1500,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "Must activate bonus each quarter online or via app; rotating categories change quarterly \u2014 must track schedule; Q1 2026: restaurants + drugstores",
+  "redemption_limits": "No minimum redemption; redeem at any time",
+  "apr": "17.49%\u201326.49% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$1,500/quarter cap on 5% rotating categories"
+}

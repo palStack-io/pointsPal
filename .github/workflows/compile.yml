@@ -1,0 +1,54 @@
+name: Compile Programs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "programs/**.json"
+      - "scripts/compile.js"
+      - "scripts/validate.js"
+
+jobs:
+  compile:
+    name: Validate & compile dist/programs.json
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate all programs
+        run: node scripts/validate.js
+
+      - name: Compile programs.json
+        run: node scripts/compile.js
+
+      - name: Commit compiled output
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/programs.json dist/index.json
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: recompile programs.json [skip ci]"
+          git push
+
+      - name: Summary
+        run: |
+          COUNT=$(node -e "const d=require('./dist/index.json'); console.log(d.count)")
+          STALE=$(node -e "const d=require('./dist/index.json'); console.log(d.stale_programs.length)")
+          echo "## Compilation Complete" >> $GITHUB_STEP_SUMMARY
+          echo "- **$COUNT** programs compiled to \`dist/programs.json\`" >> $GITHUB_STEP_SUMMARY
+          if [ "$STALE" -gt "0" ]; then
+            echo "- ⚠️ **$STALE** programs are past their review date" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "finPal instances will pick up changes on their next hourly sync." >> $GITHUB_STEP_SUMMARY
+

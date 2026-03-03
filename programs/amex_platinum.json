@@ -1,0 +1,147 @@
+{
+  "program_id": "amex_platinum",
+  "program_name": "Amex Platinum",
+  "issuer": "American Express",
+  "network": "Amex",
+  "currency_name": "Points",
+  "annual_fee": 895.0,
+  "effective_annual_fee": "95",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.02,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": "2025-07-01",
+  "known_change_event": "Jul 2025 AF raised to $895; new credits: Resy $400/yr, Lululemon $300/yr, entertainment $300/yr, hotel credit raised to $600/yr",
+  "review_frequency_months": 6,
+  "notes": "$200 airline fee credit; $600 hotel credit (FHR/Hotel Collection); $200 Uber Cash; $400 Resy credit; $300 Equinox; $300 entertainment; $100 Saks; Global Lounge Collection (1,550+ lounges); auto Hilton Gold + Marriott Gold; Global Entry/TSA PreCheck",
+  "source_url": "https://thepointsguy.com/credit-cards/american-express/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 12000.0,
+    "spend_timeframe_months": 3,
+    "notes": "175,000 pts (varies)"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 5.0,
+      "cap_amount": 500000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 5.0,
+      "cap_amount": 500000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 5.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "5x only on flights direct with airline or AmexTravel; all other travel 1x; transfer fee on US domestic airline partners ($0.0006/pt max $99)",
+  "redemption_limits": "Once-per-lifetime welcome offer per card family; transfer in 1,000-pt increments; $99 max transfer fee to US airlines",
+  "apr": "19.49%\u201328.49% Variable",
+  "companion_elite_benefits": "Y \u2014 Hilton Gold + Marriott Gold auto",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$500,000/yr cap on 5x flight earning; all credits are use-it-or-lose-it monthly/quarterly"
+}

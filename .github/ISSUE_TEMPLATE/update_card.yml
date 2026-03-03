@@ -1,0 +1,71 @@
+name: "🔄 Update Existing Card"
+description: "Report outdated earn rates, caps, or valuations for an existing card."
+title: "Update: [Card Name Here]"
+labels: ["update", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Earn rates change frequently. Thank you for keeping pointPal accurate!
+
+  - type: input
+    id: program_id
+    attributes:
+      label: program_id (filename without .json)
+      placeholder: "e.g. chase_sapphire_reserve"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: What changed?
+      multiple: true
+      options:
+        - Earn rate changed
+        - Spending cap changed or added
+        - New category added
+        - Category removed
+        - Annual fee changed
+        - Transfer partner added or removed
+        - Point value (cpp) changed
+        - Card restructured / renamed
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_changed
+    attributes:
+      label: What specifically changed?
+      description: Describe the old value and the new value
+      placeholder: |
+        Old: 3x on all travel purchases
+        New: 1x on general travel (parking, transit, vacation rentals). Only 4x on direct flights and hotels, 8x via Chase portal.
+
+        Effective: October 26, 2025
+    validations:
+      required: true
+
+  - type: input
+    id: effective_date
+    attributes:
+      label: Effective Date
+      description: When did the issuer change take effect? (YYYY-MM-DD)
+      placeholder: "2025-10-26"
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source URL
+      description: Link verifying the change (issuer announcement, TPG, NerdWallet, etc.)
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: contributor
+    attributes:
+      label: Your GitHub Username
+      placeholder: "@your-handle"
+

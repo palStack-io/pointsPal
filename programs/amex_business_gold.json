@@ -1,0 +1,147 @@
+{
+  "program_id": "amex_business_gold",
+  "program_name": "Amex Business Gold",
+  "issuer": "American Express",
+  "network": "Amex",
+  "currency_name": "Points",
+  "annual_fee": 375.0,
+  "effective_annual_fee": "375",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.02,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 12,
+  "notes": "$240 FedEx/Grubhub/office supply credit ($20/mo); $155 Walmart+ credit; auto hotel Gold status (Marriott/Hilton) if holding Business Platinum too",
+  "source_url": "https://thepointsguy.com/credit-cards/american-express/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 15000.0,
+    "spend_timeframe_months": 3,
+    "notes": "100,000 pts"
+  },
+  "earn_categories": [
+    {
+      "category": "flights_direct",
+      "multiplier": 4.0,
+      "cap_amount": 150000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 4.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 4.0,
+      "cap_amount": 150000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "groceries",
+      "multiplier": 4.0,
+      "cap_amount": 150000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "gas",
+      "multiplier": 4.0,
+      "cap_amount": 150000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 4.0,
+      "cap_amount": 150000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "travel_portal",
+      "multiplier": 3.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": 150000,
+      "cap_period": "annual",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "4x on top 2 categories only \u2014 the other 4 earn 1x each billing cycle; category selection is automatic, cannot be manually overridden",
+  "redemption_limits": "$150k combined annual cap across both top-2 categories; once-per-lifetime offer",
+  "apr": "18.49%\u201327.49% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$150,000/yr combined cap on all 4x earning across both auto-selected categories"
+}

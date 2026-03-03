@@ -1,0 +1,147 @@
+{
+  "program_id": "us_bank_cash",
+  "program_name": "US Bank Cash+",
+  "issuer": "US Bank",
+  "network": "Visa",
+  "currency_name": "Cash Back",
+  "annual_fee": 0,
+  "effective_annual_fee": "0",
+  "base_cpp": 0.01,
+  "tpg_cpp": 0.01,
+  "portal_cpp": null,
+  "has_transfer_fee": false,
+  "expiry_policy": "account_closure",
+  "data_as_of": "2026-03-02",
+  "last_updated": "2026-03-02",
+  "issuer_effective_date": null,
+  "known_change_event": null,
+  "review_frequency_months": 3,
+  "notes": "Must choose categories each quarter before activation deadline; 5% categories include niche options not on other cards (gym, ground transport, home utilities); no annual fee; 0% intro APR for 15 months",
+  "source_url": "https://www.cnbc.com/select/us-bank-cash-vs-citi-custom-cash/",
+  "contributor": "palstack-team",
+  "welcome_bonus": {
+    "points": null,
+    "cash_amount": null,
+    "spend_requirement": 1000.0,
+    "spend_timeframe_months": 3,
+    "notes": "$200 cash"
+  },
+  "earn_categories": [
+    {
+      "category": "travel_portal",
+      "multiplier": 5.0,
+      "cap_amount": 2.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "dining",
+      "multiplier": 5.0,
+      "cap_amount": 2000,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": "or 2% (depending on chosen categories)"
+    },
+    {
+      "category": "gas",
+      "multiplier": 5.0,
+      "cap_amount": 2000,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": "or 2% (depending)"
+    },
+    {
+      "category": "groceries",
+      "multiplier": 2.0,
+      "cap_amount": 2.0,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "flights_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "hotels_direct",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "streaming",
+      "multiplier": 1.0,
+      "cap_amount": 2000,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "transit",
+      "multiplier": 1.0,
+      "cap_amount": 2000,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "online_shopping",
+      "multiplier": 1.0,
+      "cap_amount": 2000,
+      "cap_period": "quarterly",
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "advertising",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "drugstores",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    },
+    {
+      "category": "other",
+      "multiplier": 1.0,
+      "cap_amount": null,
+      "cap_period": null,
+      "multiplier_fallback": 1.0,
+      "card_variant": null,
+      "notes": null
+    }
+  ],
+  "transfer_partners": [],
+  "foreign_transaction_fee_pct": 0,
+  "category_exceptions": "Must activate each quarter; if no activation, earns 1% on everything; 5% categories are pre-defined list only \u2014 cannot choose arbitrary categories",
+  "redemption_limits": "$2,000/quarter cap per 5% category; separate caps for each of the two chosen 5% categories",
+  "apr": "19.74%\u201329.74% Variable",
+  "companion_elite_benefits": "N",
+  "payment_method_requirement": "None",
+  "bonus_cap_conditional": "$2,000/quarter per 5% category = $8,000/yr max per category"
+}
