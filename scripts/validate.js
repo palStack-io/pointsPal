@@ -64,6 +64,14 @@ function validateProgram(filePath, data) {
     err('annual_fee must be a non-negative number');
   if (typeof data.base_cpp !== 'number' || data.base_cpp <= 0)
     err('base_cpp must be a positive number');
+  // CENTS per point (1.0 = one cent), as the README and the template say. Every value was once entered in DOLLARS
+  // (0.01), which made every dollar figure finPal showed 100 times too small (2026-10-26). A point is worth between
+  // a tenth of a cent and ten cents, so anything outside that is a unit mistake.
+  for (const key of ['base_cpp', 'tpg_cpp']) {
+    const v = data[key];
+    if (typeof v === 'number' && (v < 0.1 || v > 10))
+      err(`${key} is cents per point (1.0 = one cent); ${v} looks like dollars or a typo`);
+  }
 
   // Date fields
   if (!data.data_as_of)          err('Missing required field: data_as_of (YYYY-MM-DD)');

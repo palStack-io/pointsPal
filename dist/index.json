@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-03T03:46:42.722Z",
+  "generated_at": "2026-10-26T16:53:21.060Z",
   "schema_version": "1.0",
   "count": 73,
   "issuer_counts": {
@@ -90,5 +90,132 @@
     "world_of_hyatt_credit_card",
     "wyndham_rewards_earner"
   ],
-  "stale_programs": []
+  "stale_programs": [
+    {
+      "program_id": "amex_gold",
+      "program_name": "Amex Gold",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "amex_platinum",
+      "program_name": "Amex Platinum",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "bilt_mastercard_obsidian",
+      "program_name": "Bilt Mastercard (Obsidian)",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "bilt_palladium",
+      "program_name": "Bilt Palladium",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "bofa_customized_cash_rewards",
+      "program_name": "BofA Customized Cash Rewards",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "bofa_premium_rewards",
+      "program_name": "BofA Premium Rewards",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "capital_one_venture",
+      "program_name": "Capital One Venture",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "capital_one_venture_x",
+      "program_name": "Capital One Venture X",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "chase_freedom_flex",
+      "program_name": "Chase Freedom Flex",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "chase_sapphire_preferred",
+      "program_name": "Chase Sapphire Preferred",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "chase_sapphire_reserve",
+      "program_name": "Chase Sapphire Reserve",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "citi_custom_cash",
+      "program_name": "Citi Custom Cash",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "citi_strata_elite",
+      "program_name": "Citi Strata Elite",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "citi_strata_premier",
+      "program_name": "Citi Strata Premier",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "delta_skymiles_reserve_amex",
+      "program_name": "Delta SkyMiles Reserve Amex",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "discover_it_cash_back",
+      "program_name": "Discover it Cash Back",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "hilton_honors_aspire_amex",
+      "program_name": "Hilton Honors Aspire Amex",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "southwest_rapid_rewards_priority",
+      "program_name": "Southwest Rapid Rewards Priority",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 6
+    },
+    {
+      "program_id": "united_club_card",
+      "program_name": "United Club Card",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "united_explorer_card",
+      "program_name": "United Explorer Card",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    },
+    {
+      "program_id": "us_bank_cash",
+      "program_name": "US Bank Cash+",
+      "data_as_of": "2026-03-02",
+      "review_frequency_months": 3
+    }
+  ]
 }
