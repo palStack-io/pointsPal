@@ -11,8 +11,8 @@
   "portal_cpp": null,
   "has_transfer_fee": false,
   "expiry_policy": "account_closure",
-  "data_as_of": "2026-03-02",
-  "last_updated": "2026-03-02",
+  "data_as_of": "2026-11-21",
+  "last_updated": "2026-11-21",
   "issuer_effective_date": "2026-02-07",
   "known_change_event": "Bilt 2.0 launched Feb 7 2026: new Palladium flagship card (Cardless issuer)",
   "review_frequency_months": 3,
@@ -20,16 +20,16 @@
   "source_url": "https://thepointsguy.com/loyalty-programs/bilt-rewards-guide/",
   "contributor": "palstack-team",
   "welcome_bonus": {
-    "points": null,
+    "points": 50000,
     "cash_amount": null,
-    "spend_requirement": 0,
+    "spend_requirement": 4000,
     "spend_timeframe_months": 3,
     "notes": "50,000 pts + Gold status"
   },
   "earn_categories": [
     {
       "category": "transit",
-      "multiplier": 5.0,
+      "multiplier": 2,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,

@@ -11,8 +11,8 @@
   "portal_cpp": null,
   "has_transfer_fee": false,
   "expiry_policy": "account_closure",
-  "data_as_of": "2026-03-02",
-  "last_updated": "2026-03-02",
+  "data_as_of": "2026-11-21",
+  "last_updated": "2026-11-21",
   "issuer_effective_date": "2025-07-01",
   "known_change_event": "Jul 2025 AF raised to $895; new credits: Resy $400/yr, Lululemon $300/yr, entertainment $300/yr, hotel credit raised to $600/yr",
   "review_frequency_months": 6,
@@ -23,7 +23,7 @@
     "points": null,
     "cash_amount": null,
     "spend_requirement": 12000.0,
-    "spend_timeframe_months": 3,
+    "spend_timeframe_months": 6,
     "notes": "175,000 pts (varies)"
   },
   "earn_categories": [
@@ -47,7 +47,7 @@
     },
     {
       "category": "hotels_direct",
-      "multiplier": 5.0,
+      "multiplier": 1,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,

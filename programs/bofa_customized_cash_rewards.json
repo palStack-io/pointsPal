@@ -11,8 +11,8 @@
   "portal_cpp": null,
   "has_transfer_fee": false,
   "expiry_policy": "account_closure",
-  "data_as_of": "2026-03-02",
-  "last_updated": "2026-03-02",
+  "data_as_of": "2026-11-21",
+  "last_updated": "2026-11-21",
   "issuer_effective_date": "2026-05-27",
   "known_change_event": "BofA Rewards rebrand May 2026: 75% boost now requires $1M balance (was $100k); former Platinum \u2192 Preferred Plus (25% boost)",
   "review_frequency_months": 3,
@@ -21,7 +21,7 @@
   "contributor": "palstack-team",
   "welcome_bonus": {
     "points": null,
-    "cash_amount": null,
+    "cash_amount": 200,
     "spend_requirement": 1000.0,
     "spend_timeframe_months": 3,
     "notes": "$200 cash"
@@ -38,7 +38,7 @@
     },
     {
       "category": "groceries",
-      "multiplier": 3.0,
+      "multiplier": 2,
       "cap_amount": 2500,
       "cap_period": "quarterly",
       "multiplier_fallback": 1.0,
@@ -119,9 +119,9 @@
     },
     {
       "category": "drugstores",
-      "multiplier": 1.0,
-      "cap_amount": null,
-      "cap_period": null,
+      "multiplier": 3,
+      "cap_amount": 2500,
+      "cap_period": "quarterly",
       "multiplier_fallback": 1.0,
       "card_variant": null,
       "notes": null
@@ -137,7 +137,7 @@
     }
   ],
   "transfer_partners": [],
-  "foreign_transaction_fee_pct": 0,
+  "foreign_transaction_fee_pct": 3,
   "category_exceptions": "$2,500/quarter COMBINED cap on both the 3% choice cat AND 2% grocery/wholesale together \u2014 not separate caps; BofA Rewards boost restructuring May 2026",
   "redemption_limits": "Rewards never expire while account open; $25 minimum for check redemption (no minimum for direct deposit or statement credit)",
   "apr": "18.24%\u201328.24% Variable",

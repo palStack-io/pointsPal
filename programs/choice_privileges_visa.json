@@ -7,7 +7,7 @@
   "annual_fee": 49.0,
   "effective_annual_fee": "49",
   "base_cpp": 1.0,
-  "tpg_cpp": 1.0,
+  "tpg_cpp": 0.85,
   "portal_cpp": null,
   "has_transfer_fee": false,
   "expiry_policy": "inactivity_18mo",

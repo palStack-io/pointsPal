@@ -11,8 +11,8 @@
   "portal_cpp": null,
   "has_transfer_fee": false,
   "expiry_policy": "account_closure",
-  "data_as_of": "2026-03-02",
-  "last_updated": "2026-03-02",
+  "data_as_of": "2026-11-21",
+  "last_updated": "2026-11-21",
   "issuer_effective_date": "2026-01-01",
   "known_change_event": "Q1 2026: dining + NCL + AHA rotating 5x categories",
   "review_frequency_months": 3,
@@ -21,7 +21,7 @@
   "contributor": "palstack-team",
   "welcome_bonus": {
     "points": null,
-    "cash_amount": null,
+    "cash_amount": 200,
     "spend_requirement": 500.0,
     "spend_timeframe_months": 3,
     "notes": "$200 cash"
@@ -30,8 +30,8 @@
     {
       "category": "travel_portal",
       "multiplier": 5.0,
-      "cap_amount": 1500,
-      "cap_period": "quarterly",
+      "cap_amount": null,
+      "cap_period": null,
       "multiplier_fallback": 1.0,
       "card_variant": null,
       "notes": null
@@ -39,8 +39,8 @@
     {
       "category": "dining",
       "multiplier": 3.0,
-      "cap_amount": 1500,
-      "cap_period": "quarterly",
+      "cap_amount": null,
+      "cap_period": null,
       "multiplier_fallback": 1.0,
       "card_variant": null,
       "notes": null
@@ -48,8 +48,8 @@
     {
       "category": "drugstores",
       "multiplier": 3.0,
-      "cap_amount": 1.0,
-      "cap_period": "quarterly",
+      "cap_amount": null,
+      "cap_period": null,
       "multiplier_fallback": 1.0,
       "card_variant": null,
       "notes": null
@@ -57,8 +57,8 @@
     {
       "category": "flights_direct",
       "multiplier": 1.0,
-      "cap_amount": 1500,
-      "cap_period": "quarterly",
+      "cap_amount": null,
+      "cap_period": null,
       "multiplier_fallback": 1.0,
       "card_variant": null,
       "notes": null
@@ -66,8 +66,8 @@
     {
       "category": "hotels_direct",
       "multiplier": 1.0,
-      "cap_amount": 1500,
-      "cap_period": "quarterly",
+      "cap_amount": null,
+      "cap_period": null,
       "multiplier_fallback": 1.0,
       "card_variant": null,
       "notes": null

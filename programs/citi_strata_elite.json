@@ -7,12 +7,12 @@
   "annual_fee": 595.0,
   "effective_annual_fee": "595",
   "base_cpp": 1.0,
-  "tpg_cpp": 1.9,
+  "tpg_cpp": 1.95,
   "portal_cpp": null,
   "has_transfer_fee": false,
   "expiry_policy": "account_closure",
-  "data_as_of": "2026-03-02",
-  "last_updated": "2026-03-02",
+  "data_as_of": "2026-11-21",
+  "last_updated": "2026-11-21",
   "issuer_effective_date": "2025-06-01",
   "known_change_event": "Citi Strata Elite launched mid-2025 as new premium flagship",
   "review_frequency_months": 6,
@@ -20,7 +20,7 @@
   "source_url": "https://upgradedpoints.com/credit-cards/citi-thankyou-rewards-points-faqs/",
   "contributor": "palstack-team",
   "welcome_bonus": {
-    "points": null,
+    "points": 75000,
     "cash_amount": null,
     "spend_requirement": 6000.0,
     "spend_timeframe_months": 3,
@@ -38,7 +38,7 @@
     },
     {
       "category": "flights_direct",
-      "multiplier": 6.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -47,7 +47,7 @@
     },
     {
       "category": "hotels_direct",
-      "multiplier": 6.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -56,7 +56,7 @@
     },
     {
       "category": "dining",
-      "multiplier": 6.0,
+      "multiplier": 3,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -65,7 +65,7 @@
     },
     {
       "category": "groceries",
-      "multiplier": 3.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -74,7 +74,7 @@
     },
     {
       "category": "gas",
-      "multiplier": 3.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -83,7 +83,7 @@
     },
     {
       "category": "streaming",
-      "multiplier": 3.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -92,7 +92,7 @@
     },
     {
       "category": "transit",
-      "multiplier": 3.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -101,7 +101,7 @@
     },
     {
       "category": "online_shopping",
-      "multiplier": 1.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -110,7 +110,7 @@
     },
     {
       "category": "advertising",
-      "multiplier": 1.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -119,7 +119,7 @@
     },
     {
       "category": "drugstores",
-      "multiplier": 1.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
@@ -128,7 +128,7 @@
     },
     {
       "category": "other",
-      "multiplier": 1.0,
+      "multiplier": 1.5,
       "cap_amount": null,
       "cap_period": null,
       "multiplier_fallback": 1.0,
