@@ -66,6 +66,16 @@ Stale data doesn't get automatically removed, but finPal shows users a "rates ma
 
 ---
 
+## The weekly card check (automated pull requests)
+
+Once a week the palStack team runs an automated check of the cards that are due for review (`data_as_of` plus
+`review_frequency_months`). It reads each card's issuer page, and proposes a change only when a page it read states
+the new value; every change in the pull request quotes that page and links it. Cards it could not verify are listed
+and left untouched. It never merges: a maintainer reviews the quotes and merges, like any other contribution.
+Branches are named `bot/refresh-YYYY-MM-DD`.
+
+---
+
 ## Code of Conduct
 
 - Be accurate, not promotional
