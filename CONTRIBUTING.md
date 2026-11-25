@@ -1,19 +1,20 @@
-# Contributing to pointPal
+# Contributing to pointsPal
+
+> [!IMPORTANT]
+> **Pull requests are paused** while we work out how to review contributions well. Please open an issue with the
+> new card or update card template instead; a maintainer turns it into JSON. The data rules below still apply.
 
 Thanks for helping keep the database accurate. Earn rates change constantly — the community is what makes this useful.
 
 ---
 
-## Three Ways to Contribute
+## Ways to contribute
 
-### 1. From finPal (easiest, no GitHub required)
-Add your card in finPal → tap **"Share with community"** → finPal pre-fills the JSON and opens a GitHub PR for you. You just need to add your GitHub username and click submit.
-
-### 2. Submit a PR directly
+### 1. Submit a PR directly (paused)
 Best if you're comfortable with JSON. See the [Quick Start in the README](./README.md#quick-start-for-contributors).
 
-### 3. File an issue
-Not comfortable with JSON? [Open an issue](https://github.com/palStack-io/pointPal/issues/new?template=new_card.yml) and a maintainer will build the JSON from your info.
+### 2. File an issue
+Not comfortable with JSON? [Open an issue](https://github.com/palStack-io/pointsPal/issues/new?template=new_card.yml) and a maintainer will build the JSON from your info.
 
 ---
 
