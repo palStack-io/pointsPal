@@ -1,8 +1,8 @@
-# pointPal — Category Slug Reference
+# pointsPal — Category Slug Reference
 
 Use **only** these slugs in `earn_categories[].category`. Using unlisted slugs will fail validation.
 
-If you need a category that isn't here, [open an issue](https://github.com/palStack-io/pointPal/issues/new) and we'll add it.
+If you need a category that isn't here, [open an issue](https://github.com/palStack-io/pointsPal/issues/new) and we'll add it.
 
 ---
 
@@ -62,7 +62,7 @@ When a category has restrictions, document them in the `notes` field of the earn
 
 ## Requesting New Slugs
 
-If you have a card with a spend category not covered above, [open an issue](https://github.com/palStack-io/pointPal/issues/new?title=New+category+slug+request) with:
+If you have a card with a spend category not covered above, [open an issue](https://github.com/palStack-io/pointsPal/issues/new?title=New+category+slug+request) with:
 - The card and category you're trying to represent
 - Why the existing slugs don't cover it
 - Suggested slug name (snake_case)
