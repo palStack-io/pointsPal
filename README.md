@@ -176,6 +176,8 @@ Corrections matter most: earn rates change often. To report a wrong rate or sugg
 [update card](https://github.com/palStack-io/pointsPal/issues/new?template=update_card.yml) template and include a
 link to the issuer's page. We have paused pull requests for now while we work out how to review contributions well;
 see [CONTRIBUTING.md](CONTRIBUTING.md) for the data rules. Questions: [Discord](https://discord.gg/mcgcp7RdYs).
+Security problems (in the scripts or workflows): report privately, see
+[SECURITY.md](https://github.com/palStack-io/.github/blob/main/SECURITY.md).
 
 ## License
 
